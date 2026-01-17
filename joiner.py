@@ -2,6 +2,7 @@ from herokutl.types import Message
 from .. import loader, utils
 from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
+# metadeveloper: @isdistorted
 
 @loader.tds
 class SimpleJoiner(loader.Module):
