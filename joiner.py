@@ -6,7 +6,7 @@ from telethon.tl.functions.messages import ImportChatInviteRequest
 
 @loader.tds
 class SimpleJoiner(loader.Module):
-    """Clean & Fast Joiner Module"""
+    """Простой модуль для присоединения к группам и каналам."""
     strings = {
         "name": "SimpleJoiner",
         "joining": "<b>🪐 Вхожу в орбиту...</b>",
