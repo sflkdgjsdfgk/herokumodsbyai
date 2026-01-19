@@ -16,7 +16,7 @@ class FemboyAutoModule(loader.Module):
     }
 
     def __init__(self):
-        # Добавлена настройка команды в конфиг [cite: 37, 38]
+        # Добавлена настройка команды в конфиг
         self.config = loader.ModuleConfig(
             loader.ConfigValue(
                 "enabled", False, "Статус авто-отправки",
@@ -63,7 +63,7 @@ class FemboyAutoModule(loader.Module):
     @loader.command(ru_doc="Логи фарма")
     async def femlogs(self, message: Message):
         """Show last farm time"""
-        last_run = self.db.get("last_run", "Нет данных") [cite: 45]
+        last_run = self.db.get("last_run", "Нет данных")
         status = "✅ Работает" if self.config["enabled"] else "❌ Выключен"
         await utils.answer(message, self.strings["status"].format(status, last_run))
 
