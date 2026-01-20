@@ -6,7 +6,7 @@ import datetime
 
 @loader.tds
 class FemboyAutoModule(loader.Module):
-    """Автоматический фарм (UTC+3)"""
+    """Автоматический фарм фембоев в @hikkahost_chat."""
     
     strings = {
         "name": "FemboyAuto",
