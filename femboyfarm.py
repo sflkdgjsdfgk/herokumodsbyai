@@ -2,7 +2,7 @@ from herokutl.types import Message
 from .. import loader, utils
 import asyncio
 import datetime
-# meta developer: @isdistorted, @isauthentic, @isvivid and gemini
+# meta developer: @modsbyai
 
 @loader.tds
 class FemboyAutoModule(loader.Module):
