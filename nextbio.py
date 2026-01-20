@@ -10,7 +10,7 @@ import psutil
 import random
 import re
 
-# meta developer: @isdistorted, @isauthentic, @isvivid and gemini
+# meta developer: @modsbyai
 
 @loader.tds
 class NextAutoBioModule(loader.Module):
@@ -210,3 +210,4 @@ class NextAutoBioModule(loader.Module):
 
     async def on_unload(self):
         if self._task: self._task.cancel()
+
