@@ -2,7 +2,7 @@ import io
 import httpx
 from herokutl.types import Message
 from .. import loader, utils
-# meta developer: @isdistorted, @isauthentic, @isvivid and gemini
+# meta developer: @modsbyai
 
 @loader.tds
 class OCRModule(loader.Module):
@@ -71,3 +71,4 @@ class OCRModule(loader.Module):
 
         except Exception as e:
             await utils.answer(message, self.strings["error"].format(str(e)))
+
