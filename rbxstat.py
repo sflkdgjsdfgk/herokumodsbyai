@@ -3,7 +3,7 @@ import io
 from herokutl.types import Message
 from .. import loader, utils
 
-# meta developer: @isdistorted, @isauthentic, @isvivid and gemini
+# meta developer: @modsbyai
 
 @loader.tds
 class RobloxInfoMod(loader.Module):
@@ -85,3 +85,4 @@ class RobloxInfoMod(loader.Module):
     async def rid(self, message: Message):
         """Инструкция по ID"""
         await utils.answer(message, self.strings["how_id"])
+
